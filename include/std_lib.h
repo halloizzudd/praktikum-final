@@ -11,10 +11,8 @@ unsigned int strlen(char* str);
 bool strcmp(char* str1, char* str2);
 void strcpy(char* dst, char* src);
 void clear(byte* buf, unsigned int size);
-
-/**
- * TODO: Add your general helper function here
- * ...
- */
+void strncpy(char* dst, char* src, unsigned int n);
+void strcat(char* dst, char* src);
+void memset(byte* buf, byte value, unsigned int size);
 
 #endif // __STD_LIB_H__
